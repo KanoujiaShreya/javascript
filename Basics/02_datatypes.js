@@ -1,3 +1,4 @@
+"use strict"; //treat all JS code as a newer version
 //(tc39 , mdn) - documentations
 let name = "shreya"
 let age = 22
