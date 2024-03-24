@@ -31,7 +31,7 @@ const myArry = new Array(1,2,3,4,5)
 //console.log(myArr.indexOf(5)); //5 (prints the address of the 5)
 
 
-// const newArr = myArr.join() // join converts the array[1,2,3,4] into string- 1,2,3,4
+ const newArr = myArr.join() // join converts the array[1,2,3,4] into string- 1,2,3,4
 // console.log(myArr); //[0,1,2,3,4,,5,6]
 // console.log(newArr); //0,1,2,3,4,5,6
 // console.log(typeof newArr); //string
