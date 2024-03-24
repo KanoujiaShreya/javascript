@@ -5,8 +5,8 @@ console.log(typeof(score)); //string
 //converting it to number
 
 let valueInNumber = Number(score)
-console.log(valueInNumber)
-console.log(typeof valueInNumber)
+console.log(valueInNumber) //Nan
+console.log(typeof valueInNumber) //number
 /*
 "33" = 33
 "33abc" = NaN(Not a Number)
@@ -16,8 +16,8 @@ true = 1; false = 0
 //converting it to boolean
 let score1 = "shreya"
 let valueInBoolean = Boolean(score1)
-console.log(valueInBoolean);
-console.log(typeof valueInBoolean);
+console.log(valueInBoolean); //true
+console.log(typeof valueInBoolean); //boolean
 
 /*
 1 = True
@@ -32,7 +32,7 @@ undefined = False
 
 let valueToString = 33
 let convertToString = String(valueToString)
-console.log(convertToString);
+console.log(convertToString); //33
 console.log(typeof convertToString);//string
 
 /*

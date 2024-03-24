@@ -7,7 +7,7 @@ let string = "shreya"
 let num = 45
 let boolean = true
 let weather = null
-let temperature;
+let temperature; //undefined
 let bigNumber = 58959575665n
 
 const id = Symbol('123')
@@ -41,8 +41,8 @@ Stack(Primitive)    Heap(NonPrimitve/Refernce)
 let myYoutube = "shreyyaaaaa"
 let anotherYoutube = myYoutube;
 anotherYoutube = "alsoShreyyaaaaa";
-console.log(myYoutube);
-console.log(anotherYoutube);
+console.log(myYoutube); //shreyyaaaaa
+console.log(anotherYoutube); //alsoShreyyaaaaa
 
 //Heap example
 
@@ -54,5 +54,5 @@ let myObj1 = {
 let myObj2 = myObj1;
 
 myObj2.email = "sk@gmail.com"
-console.log(myObj1);
-console.log(myObj2);
+console.log(myObj1); //{ name: 'shreyaaaa', email: 'sk@gmail.com' }
+console.log(myObj2); //{ name: 'shreyaaaa', email: 'sk@gmail.com' }

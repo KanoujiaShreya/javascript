@@ -14,7 +14,7 @@ null = standalone value
 undefined
 */
 
-console.log(typeof null)
-console.log(typeof undefined)
+console.log(typeof null) //object
+console.log(typeof undefined) //undefined
 
 
