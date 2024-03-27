@@ -9,7 +9,7 @@ tinderUser.Name = "Shreya"
 tinderUser.isLoggedIn = false
 //console.log(tinderUser); //{ id: 13244, Name: 'Shreya', isLoggedIn: false }
 
-//console.log(typeof tinderUser.id);
+//console.log(typeof tinderUser.id); //number
 
 // ++++++++++++++++++  NESTED OBJECT  +++++++++++++++++++++++
 const anotherUser = {

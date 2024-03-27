@@ -3,7 +3,7 @@ const actors = ["ranveer","shahrukh","salman","sanjay"]
 
 //cricketers.push(actors) //inserts whole array as a single element
 //console.log(cricketers); // ['virat','rohit','maxwell','abdevilliers',['ranveer', 'shahrukh', 'salman', 'sanjay']]
-//console.log(cricketers[4][1])
+//console.log(cricketers[4][1]) //shahrukh
 
 //push updates on existing array
 //concat returns new array
